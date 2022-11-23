@@ -1,0 +1,11 @@
+ChatFrame$Receiver
+ChatFrame$HyberlinkListener
+ChatFrame
+ChatFrame$7
+ChatFrame$4
+ChatFrame$3
+ChatFrame$6
+ChatFrame$5
+ChatFrame$IconListener
+ChatFrame$2
+ChatFrame$1
