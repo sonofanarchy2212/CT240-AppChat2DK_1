@@ -176,7 +176,7 @@ public class LoginFrame extends javax.swing.JFrame {
             EventQueue.invokeLater(new Runnable() {
                 public void run() {
                     try {
-                        UIChatFrame frame = new UIChatFrame(username, dis, dos);
+                        ChatFrame frame = new ChatFrame(username, dis, dos);
                         frame.setVisible(true);
                     } catch (Exception e) {
                         e.printStackTrace();
@@ -210,7 +210,7 @@ public class LoginFrame extends javax.swing.JFrame {
                                 // In ra thông báo dang kí thành công
                                 int confirm = JOptionPane.showConfirmDialog(null, "Sign up successful\nWelcome to App Chat 2DK", "Sign up successful", JOptionPane.DEFAULT_OPTION);
 
-                                UIChatFrame frame = new UIChatFrame(username, dis, dos);
+                                ChatFrame frame = new ChatFrame(username, dis, dos);
                                 frame.setVisible(true);
                             } catch (Exception e) {
                                 e.printStackTrace();

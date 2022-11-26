@@ -18,6 +18,7 @@ public class ServerFrame extends javax.swing.JFrame {
     Thread t;
 
     public ServerFrame() {
+        setTitle("Server App Chat 2DK");
         initComponents();
         Toolkit toolkit = getToolkit();
         Dimension size = toolkit.getScreenSize();
@@ -45,7 +46,7 @@ public class ServerFrame extends javax.swing.JFrame {
 
         start.setBackground(new java.awt.Color(204, 255, 255));
         start.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        start.setText("START SERVER");
+        start.setText("RUN SERVER");
         start.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 startActionPerformed(evt);
@@ -122,7 +123,7 @@ public class ServerFrame extends javax.swing.JFrame {
         t.start();
 
         start.setEnabled(false);
-        statusLabel.setText("STARTED");
+        statusLabel.setText("RUNNING");
         statusLabel.setForeground(Color.GREEN);
 
     }//GEN-LAST:event_startActionPerformed
